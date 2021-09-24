@@ -3,7 +3,7 @@ const router = express.Router();
 
 const musicController = require("../controller/musicController");
 
-router.get("/home", musicController.home);
+router.get("/", musicController.home);
 
 router.get("/artist-search", musicController.search);
 
